@@ -1,0 +1,14 @@
+body {
+    background-color: darkgrey;
+}
+
+.nav li {
+    font-family: arial;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    font-size: large;
+}
