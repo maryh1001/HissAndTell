@@ -16,6 +16,11 @@ header {
     width: auto;
 }
 
+.nav {
+    padding: 3em;
+    word-spacing: 1em;
+}
+
 .nav li {
     font-family: arial;
     display: inline-block;
@@ -26,6 +31,17 @@ li {
     list-style: none;
     font-size: large;
     color: white;
+}
+
+.snakebanner {
+    display: inline-flex;
+    height: 300px;
+    align-content: space-between;
+}
+
+.snakepic {
+    padding: 1em;
+    align-content: center;
 }
 
 main > p {
