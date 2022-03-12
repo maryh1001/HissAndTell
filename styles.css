@@ -16,12 +16,14 @@ header {
     width: auto;
 }
 
-.nav {
+nav {
     padding: 3em;
     word-spacing: 1em;
+    position: relative;
+    left: -132px;
 }
 
-.nav li {
+nav li {
     font-family: arial;
     display: inline-block;
     align-content: center;
@@ -29,19 +31,36 @@ header {
 
 li {
     list-style: none;
-    font-size: large;
+    font-size: 18px;
     color: white;
+    height: 3em;
+    width: auto;
+    /* background-color: red; */
+    text-align: center;
+    /* padding: 1em; */
+    /* position: relative; */
+    padding-top: 15px;
+}
+
+li:hover {
+    background-color: grey;
+    color: black;
 }
 
 .snakebanner {
-    display: inline-flex;
+    display: flex;
     height: 300px;
-    align-content: space-between;
+    justify-content: center;
 }
 
 .snakepic {
-    padding: 1em;
+    padding: 0.5em;
     align-content: center;
+}
+
+main {
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 main > p {
